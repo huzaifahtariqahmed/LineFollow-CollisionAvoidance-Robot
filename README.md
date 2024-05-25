@@ -2,7 +2,7 @@
 
 ## Images of the Robot
 
-![Top View](images/top.png)
+![Top View](images/top.jpeg)
 
 ## General Logic & Working of our Robot
 
