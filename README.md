@@ -1,5 +1,9 @@
 # Arduino Based Line Following Collision Avoiding Robot
 
+## Images of the Robot
+
+![Top View](images/top.png)
+
 ## General Logic & Working of our Robot
 
 ### Line Detection - Autonomous Mode
