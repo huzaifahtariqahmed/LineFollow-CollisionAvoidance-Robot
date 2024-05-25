@@ -3,6 +3,8 @@
 ## Images of the Robot
 
 ![Front View](images/front.jpg)
+![Side View](images/side.jpg)
+![Back View](images/back.jpg)
 ![Top View](images/top.jpg)
 
 ## General Logic & Working of our Robot
