@@ -133,7 +133,16 @@ Going through the communication protocols that were used in our projects:
 We plan to: 
 
 - Successfully utilise the mechanism of IR-Encoder IC that we have implemented, and code so that relevant voltages are supplied to both motors so that they run at the same speed instead of using the delay function in our code.
-- Proper Unloading and Loading of the balls, so that if there are multiple balls in our ball-dropper, then it drops “one ball” at a time, and not all of them together at once. 
+- Proper Unloading and Loading of the balls, so that if there are multiple balls in our ball-dropper, then it drops “one ball” at a time, and not all of them together at once.
+
+## References
+
+- [Servo](https://www.arduino.cc/reference/en/libraries/servo/)
+- [IR-Encoder](https://forum.arduino.cc/t/reading-rpm-from-an-encoder-or-ir-sensor/668354)
+- [UltraSonic Sensor Data Sheet](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
+- [L298 Motor Datasheet](https://components101.com/sites/default/files/component_datasheet/L298N-Motor-Driver-Datasheet.pdf)
+- [Gear Motor](https://www.gotronic.fr/pj2-com-motor01-datasheet-2079.pdf)
+- [Arduino UNO Datasheet](https://www.farnell.com/datasheets/1682209.pdf)
 
 ---
 
