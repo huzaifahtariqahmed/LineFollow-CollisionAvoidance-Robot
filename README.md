@@ -1,23 +1,5 @@
 # Arduino Based Line Following Collision Avoiding Robot
 
-## Images of the Robot
-
-### Front View
-
-![Front View](images/front.jpg)
-
-### Side View
-
-![Side View](images/side.jpg)
-
-### Back View
-
-![Back View](images/back.jpg)
-
-### Top View
-
-![Top View](images/top.jpg)
-
 ## General Logic & Working of our Robot
 
 ### Line Detection - Autonomous Mode
@@ -78,7 +60,80 @@ Going through the communication protocols that were used in our projects:
 
 - Communication between the Bluetooth module and Arduino aside, the communication protocol that is used between “Bluetooth” and Mobile Phones” is not UART, and is SPP (Bluetooth Serial Port Protocol). 
 - Our Project doesn’t really use I2C or SPI Protocol.
-- It’s not like we are using Audio IC, Real-time clock, ADC or DAC converters that we would need an SPI Protocol for. 
+- It’s not like we are using Audio IC, Real-time clock, ADC or DAC converters that we would need an SPI Protocol for.
+
+---
+
+## Images of the Robot
+
+### Front View
+
+![Front View](images/front.jpg)
+
+### Side View
+
+![Side View](images/side.jpg)
+
+### Back View
+
+![Back View](images/back.jpg)
+
+### Top View
+
+![Top View](images/top.jpg)
+
+---
+
+## Project Materials Used 
+
+### Materials 
+
+- Acrylic sheets
+- Nuts
+- Geared DC motors
+- Mini tires
+- SG90 servo motors
+- L298N motor driver module
+- TP4056 li-ion charging modules
+- Li-ion batteries
+- Li-ion batteries holder (x3)
+- Free wheel (x2)
+- Thin metal rods
+- Plastic Bottle Glue
+- Jumper wires
+
+### Computation
+
+- We’d be using Arduino Uno as the main controller board to operate all the functionalities of this robot.
+
+### Mobility
+
+- Linear motion and rotation would be achieved by the appropriately calculated movement of two tires, using an IR Encoder, connected to geared motors which will remain attached to the base of the robot.
+
+### Sensors
+
+- HC-SR04 Ultrasonic Sensor (x2)
+- IR Encoder RPM Sensor (x2)
+- HC-05 Bluetooth Module
+- IR Sensors (x2)
+
+## Our Sustainability Goal
+
+- Most of the components we have utilised in this project are from scrapping older projects, and stuff from Engineering Workshop that was laying around, like various screws and nuts.
+- When all of this is over, our project’s design can not only serve as an inspiration to how this problem could potentially be looked at, but it can be dismantled and utilised elsewhere.
+- After dismantlement, the processors can be used in other projects, and so can be nuts, screws, acrylic sheets etc.
+- Aside from that, even the IR Encoder Rpm sensor was attained very cheaply and can be repurposed elsewhere.
+- Nothing too expensive was used in this project.
+- We’re using li-ion batteries which are very performance efficient which do not require regular replacement, as a result of which less metallic waste is generated.
+- From the safety point of view, we aim to provide some sort of foam board or Styrofoam casing to our model to keep the operators safe if they collide with the model.
+- We bought TP4056 charging ICs which are available in market at cheap rates, and were successful in creating our own charging system instead of buying an expensive ready-made one. 
+
+## Future Expansion Goals
+
+We plan to: 
+
+- Successfully utilise the mechanism of IR-Encoder IC that we have implemented, and code so that relevant voltages are supplied to both motors so that they run at the same speed instead of using the delay function in our code.
+- Proper Unloading and Loading of the balls, so that if there are multiple balls in our ball-dropper, then it drops “one ball” at a time, and not all of them together at once. 
 
 ---
 
