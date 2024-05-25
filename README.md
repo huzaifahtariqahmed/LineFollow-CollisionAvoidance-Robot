@@ -1,5 +1,7 @@
 # Arduino Based Line Following Collision Avoiding Robot
 
+This Project was the Final Project of our Micro-Controllers & Interfacing Course. Where we were tasked to make a efficient, reliable and robust robot with line following and collision avoidance capabilities. This whole project was tested on a purpose built arena with white surface having a track made with black electric tape. The robot needed to follow the black line in its Autonomous Mode, and also avoid couple of obstacles on the path by going of the black line and returning back to it after avoiding the obstacle.
+
 ## General Logic & Working of our Robot
 
 ### Line Detection - Autonomous Mode
